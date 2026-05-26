@@ -1,0 +1,3 @@
+artifacts/webapp_stdout.log
+artifacts/webapp_stderr.log
+__pycache__/

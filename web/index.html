@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slop Detector</title>
+    <link rel="stylesheet" href="/web/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <p class="eyebrow">AI Slop Detector</p>
+        <h1>Paste text. Get a quality risk signal.</h1>
+        <p class="lede">
+          This prototype scores writing as <strong>low</strong>,
+          <strong>medium</strong>, or <strong>high</strong> slop using your
+          labeled dataset and baseline model.
+        </p>
+      </section>
+
+      <section class="workspace">
+        <div class="panel input-panel">
+          <div class="panel-head">
+            <h2>Input</h2>
+            <button id="load-sample" class="ghost-button" type="button">
+              Load Sample
+            </button>
+          </div>
+          <label class="field-label" for="text-input">Text to analyze</label>
+          <textarea
+            id="text-input"
+            placeholder="Paste a paragraph, blog post excerpt, product description, or AI-generated text here."
+          ></textarea>
+          <div class="controls">
+            <button id="analyze-button" class="primary-button" type="button">
+              Analyze Text
+            </button>
+            <button id="clear-button" class="ghost-button" type="button">
+              Clear
+            </button>
+          </div>
+          <p id="input-meta" class="meta">0 words</p>
+        </div>
+
+        <div class="panel result-panel">
+          <div class="panel-head">
+            <h2>Result</h2>
+            <span id="model-badge" class="badge">Model loading...</span>
+          </div>
+
+          <div id="empty-state" class="empty-state">
+            <p>Run the detector to see the predicted slop tier and signal breakdown.</p>
+          </div>
+
+          <div id="result-state" class="result-state hidden">
+            <div class="score-band">
+              <div>
+                <p class="label">Predicted Tier</p>
+                <p id="predicted-tier" class="tier-value">Medium</p>
+              </div>
+              <div>
+                <p class="label">Confidence</p>
+                <p id="confidence" class="confidence-value">0%</p>
+              </div>
+            </div>
+
+            <div class="bar-group">
+              <div class="bar-row">
+                <span>Low</span>
+                <div class="bar-track"><div id="bar-low" class="bar-fill low"></div></div>
+              </div>
+              <div class="bar-row">
+                <span>Medium</span>
+                <div class="bar-track"><div id="bar-medium" class="bar-fill medium"></div></div>
+              </div>
+              <div class="bar-row">
+                <span>High</span>
+                <div class="bar-track"><div id="bar-high" class="bar-fill high"></div></div>
+              </div>
+            </div>
+
+            <div class="signal-grid">
+              <article class="signal-card">
+                <p class="label">Word Count</p>
+                <p id="word-count" class="signal-value">0</p>
+              </article>
+              <article class="signal-card">
+                <p class="label">Unique Word Ratio</p>
+                <p id="unique-ratio" class="signal-value">0.00</p>
+              </article>
+              <article class="signal-card">
+                <p class="label">Repeated Phrase Hits</p>
+                <p id="phrase-hits" class="signal-value">0</p>
+              </article>
+            </div>
+
+            <div class="reason-block">
+              <p class="label">Why it landed here</p>
+              <ul id="reason-list" class="reason-list"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="/web/app.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+sample_id,source_type,true_score,true_tier,predicted_tier,text_preview
+106,blog,1,low,low,"The Enhanced Games were held on Sunday, May 24, and the controversial event in Las Vegas, Nevada, featured competitors vying for a new world record. While norma"
+112,seo_page,3,high,low,"In the last 13+ years, I’ve used nearly every email marketing tool. First for 8 years at an email marketing agency, in my projects with customers. Then I guided"
+178,edited_ai,2,medium,medium,"The healthiest content strategy I have seen was built around one boring rule: publish something helpful every week, even if it is not perfect. That sounds obvio"
+169,product_description,2,medium,medium,"CeraVe Ultra-Light Moisturizing Gel is described as a lightweight, oil-free facial moisturizer for all skin types. It uses three essential ceramides, niacinamid"
+175,edited_ai,2,medium,medium,"A lot of leadership advice assumes the hard part is vision. In practice, the harder part is repeating priorities until people stop interpreting every urgent req"
+142,newsletter,2,medium,high,"The Neuron built a large audience by making daily AI updates feel approachable and memorable. The breakdown focuses on how tone, mascot-driven branding, and con"
+140,newsletter,2,medium,medium,"This newsletter is built around a simple belief: people do not need more empty productivity talk, they need a better system for attention. Instead of glorifying"
+121,forum_post,1,low,low,"Hi all, new to posting but not to the forum. I am a project manager in EV charging infrastructure and I am feeling stuck. I have spent about a decade as a PM ac"
+131,forum_post,2,medium,low,"I really need advice about a painful work situation. Missed deadlines, ignored emails, and constant follow-up have left me feeling like I am chasing everyone ju"
+117,seo_page,1,low,high,"When choosing the best credit card for travelling overseas from India, it’s important to understand the costs and benefits so the card aligns with your travel a"
+104,blog,2,medium,medium,"To me, it's a perfect form of communication: a one-character way to signal to someone else that you're picking up what they're putting down. And, crucially, tha"
+108,blog,1,low,low,"“Every 30 minutes, someone creates something I have to look at,” a manager recently told us. As AI accelerates individual execution, a new bottleneck to progres"
+119,seo_page,1,low,medium,Here’s how to whittle down where it matters most. Try curbing carbs instead of fats. When Johns Hopkins researchers compared the effects on the heart of losing 
+125,product_description,2,medium,medium,This facial moisturizer is formulated with naturally derived hyaluronic acid and La Roche-Posay Thermal Spring Water to moisturize and soothe dehydrated skin. I
+187,seo_page,4,high,high,"If you want to unlock your true potential in today's demanding world, finding the perfect nootropic stack is more important than ever. The right blend can eleva"
+155,human_article,1,low,low,High-performing teams are often treated like a lucky byproduct of putting smart people together. This piece argues the opposite: strong teams are built through 
+160,human_article,1,low,low,"As AI accelerates individual execution, a new bottleneck is emerging: managers. Tasks that used to unfold over a week can now come back the next day, which mean"
+189,product_description,3,high,high,"This revolutionary serum is designed to deliver next-level radiance, age-defying confidence, and a luxurious skincare experience from the very first use. Powere"
+162,human_article,1,low,medium,"As pressure to use AI has mounted at work, many employees have started producing low-effort output that looks polished but pushes cognitive burden onto the reci"
+183,human_article,0,low,medium,Comparing AI agents to the early electrification of factories gives the reader a concrete historical analogy for why process redesign matters. The paragraph ear
+123,ai_generated,4,high,high,"In today's fast-paced digital world, productivity is more important than ever before. Individuals and businesses alike are constantly looking for innovative way"
+154,human_article,1,low,low,A CEO who had been told to prioritize liquidity shifted instantly from playing for market share to operating for survival. The problem was not that his prioriti
+114,seo_page,2,medium,medium,"Managing and streamlining payroll and HR operations is crucial for businesses of all types and sizes in India. Whether you’re a startup or a large enterprise, p"

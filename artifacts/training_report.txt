@@ -1,0 +1,16 @@
+Baseline AI Slop Detector
+Train rows: 69
+Test rows: 23
+Accuracy: 0.696
+
+Labels: low, medium, high
+
+Confusion matrix (rows=true, cols=pred):
+   low: [6, 3, 1]
+medium: [1, 7, 1]
+  high: [1, 0, 3]
+
+Per-class metrics:
+   low  precision=0.750  recall=0.600  f1=0.667  support=10
+medium  precision=0.700  recall=0.778  f1=0.737  support=9
+  high  precision=0.600  recall=0.750  f1=0.667  support=4
